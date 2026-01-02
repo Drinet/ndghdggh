@@ -1,0 +1,117 @@
+{
+    "wins": 14,
+    "losses": 17,
+    "active_trades": {
+        "XAUT/USD": {
+            "side": "Long trade",
+            "entry": 4343.6,
+            "exchange": "kraken",
+            "sl": 4256.728,
+            "tp1": 4408.754,
+            "tp2": 4473.908,
+            "tp3": 4560.780000000001,
+            "tp1_hit": false,
+            "tp2_hit": false
+        },
+        "HTX/USDT": {
+            "side": "Long trade",
+            "entry": 1.6377e-06,
+            "exchange": "gateio",
+            "sl": 1.604946e-06,
+            "tp1": 1.6622655e-06,
+            "tp2": 1.686831e-06,
+            "tp3": 1.719585e-06,
+            "tp1_hit": false,
+            "tp2_hit": false
+        },
+        "KAS/USD": {
+            "side": "Long trade",
+            "entry": 0.04276,
+            "exchange": "kraken",
+            "sl": 0.04276,
+            "tp1": 0.04340139999999999,
+            "tp2": 0.0440428,
+            "tp3": 0.044898,
+            "tp1_hit": true,
+            "tp2_hit": true
+        },
+        "LINK/USD": {
+            "side": "Long trade",
+            "entry": 12.19214,
+            "exchange": "kraken",
+            "sl": 12.19214,
+            "tp1": 12.375022099999999,
+            "tp2": 12.557904200000001,
+            "tp3": 12.801747,
+            "tp1_hit": true,
+            "tp2_hit": true
+        },
+        "PI/USDT": {
+            "side": "Short trade",
+            "entry": 0.20408,
+            "exchange": "gateio",
+            "sl": 0.2081616,
+            "tp1": 0.2010188,
+            "tp2": 0.1979576,
+            "tp3": 0.193876,
+            "tp1_hit": false,
+            "tp2_hit": false
+        },
+        "NEXO/USDT": {
+            "side": "Short trade",
+            "entry": 0.8959,
+            "exchange": "gateio",
+            "sl": 0.913818,
+            "tp1": 0.8824615,
+            "tp2": 0.869023,
+            "tp3": 0.851105,
+            "tp1_hit": false,
+            "tp2_hit": false
+        },
+        "BDX/USDT": {
+            "side": "Long trade",
+            "entry": 0.10384,
+            "exchange": "gateio",
+            "sl": 0.1017632,
+            "tp1": 0.1053976,
+            "tp2": 0.1069552,
+            "tp3": 0.109032,
+            "tp1_hit": false,
+            "tp2_hit": false
+        },
+        "BTC/USD": {
+            "side": "Short trade",
+            "entry": 88257.8,
+            "exchange": "kraken",
+            "sl": 90022.956,
+            "tp1": 86933.933,
+            "tp2": 85610.066,
+            "tp3": 83844.91,
+            "tp1_hit": false,
+            "tp2_hit": false
+        },
+        "ATOM/USD": {
+            "side": "Short trade",
+            "entry": 2.0475,
+            "exchange": "kraken",
+            "sl": 2.08845,
+            "tp1": 2.0167875,
+            "tp2": 1.9860749999999998,
+            "tp3": 1.9451249999999998,
+            "tp1_hit": false,
+            "tp2_hit": false
+        },
+        "RENDER/USD": {
+            "side": "Short trade",
+            "entry": 1.353,
+            "exchange": "kraken",
+            "sl": 1.38006,
+            "tp1": 1.332705,
+            "tp2": 1.3124099999999999,
+            "tp3": 1.28535,
+            "tp1_hit": false,
+            "tp2_hit": false
+        }
+    },
+    "balance": 512.1875
+}
