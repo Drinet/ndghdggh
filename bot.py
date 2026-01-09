@@ -36,7 +36,7 @@ def get_top_coins():
         url = "https://api.coingecko.com/api/v3/coins/markets"
         params = {'vs_currency': 'usd', 'order': 'market_cap_desc', 'per_page': 120, 'page': 1}
         data = requests.get(url, params=params).json()
-        excluded = ['usdt', 'usdc', 'dai', 'fdusd', 'pyusd', 'usde', 'steth', 'wbtc', 'weth', 'rlusd', 'usdg', 'usds', 'meth']
+        excluded = ['usdt', 'usdc', 'dai', 'fdusd', 'pyusd', 'usde', 'steth', 'wbtc', 'weth', 'rlusd', 'usdg', 'usds', 'meth', 'usdd']
         return [c['symbol'].upper() for c in data if c['symbol'].lower() not in excluded]
     except Exception as e:
         log(f"CoinGecko Error: {e}")
